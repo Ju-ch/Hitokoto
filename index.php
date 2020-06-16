@@ -3,8 +3,8 @@ $path = dirname(__FILE__);
 $file = file($path."/全唐诗/杜甫.txt");
 
 //随机读取一行
-$arr  = mt_rand( 0, count( $file ) - 1 );
-$content  = trim($file[$arr]);
+$arr = mt_rand( 0, count( $file ) - 1 );
+$content = str_replace("，","，<br>",trim($file[$arr]));
 
 //编码判断，用于输出相应的响应头部编码
 if (isset($_GET['charset']) && !empty($_GET['charset'])) {
