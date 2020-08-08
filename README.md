@@ -4,7 +4,7 @@
 
 - 调用方法
 ``` html
-<script type="text/javascript" src="//domain/hitokoto/?format=js&charset=utf-8&rows=1&post=dufu"></script>
+<script type="text/javascript" src="//domain/hitokoto/?format=js&charset=utf-8&rows=1&poet=dufu"></script>
 <div id="hitokoto"><script>hitokoto()</script></div>
 ```
 - 参数
